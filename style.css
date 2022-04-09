@@ -23,10 +23,13 @@ main {
   );
   border-radius: 2rem;
   z-index: 2;
-  backdrop-filter: blur(5rem);
+  /* added webkit in order to render blur correctly in safari */
+  -webkit-backdrop-filter: blur(2rem);
+  backdrop-filter: blur(2rem);
 }
 
-.circle {
+.circle1,
+.circle2 {
   background: white;
   background: linear-gradient(
     to right bottom,
@@ -41,7 +44,6 @@ main {
 .circle1 {
   top: 5%;
   right: 15%;
-  background: red;
 }
 
 .circle2 {
