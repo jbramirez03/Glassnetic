@@ -82,3 +82,20 @@ main {
 .games {
   flex: 2;
 }
+
+.pro {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  padding: 1rem;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.pro img {
+  position: absolute;
+  top: -27%;
+  right: 10%;
+}
+
+.pro h2 {
+  width: 40%;
+}
