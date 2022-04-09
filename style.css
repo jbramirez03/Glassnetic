@@ -33,12 +33,13 @@ main {
   background: white;
   background: linear-gradient(
     to right bottom,
-    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.8),
     rgba(255, 255, 255, 0.3)
   );
   height: 20rem;
   width: 20rem;
   position: absolute;
+  border-radius: 50%;
 }
 
 .circle1 {
@@ -48,5 +49,5 @@ main {
 
 .circle2 {
   bottom: 5%;
-  left: 10%;
+  left: 15%;
 }
