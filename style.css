@@ -1,3 +1,13 @@
+:root {
+  --glass-background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+
+  --main-background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -81,11 +91,7 @@ main {
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
+  background: var(--glass-background);
   border-radius: 2rem;
 }
 
@@ -105,7 +111,7 @@ main {
 }
 
 .pro {
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: var(--main-background);
   padding: 1rem;
   border-radius: 2rem;
   position: relative;
@@ -127,11 +133,7 @@ main {
 }
 
 .status input {
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
+  background: var(--glass-background);
   border: none;
   width: 50%;
   padding: 0.5rem;
@@ -160,7 +162,7 @@ main {
 }
 
 .progress {
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: var(--main-background);
   width: 100%;
   height: 25%;
   border-radius: 1rem;
