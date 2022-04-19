@@ -12,7 +12,7 @@ Simple transparent background design for video game platform library dashboard.
 
 ## Table of Contents
 
-- [Usage](#usage)
+- [Preview](#preview)
 - [Credits](#credits)
 - [License](#license)
 - [Challenges](#challenges)
@@ -22,7 +22,9 @@ Simple transparent background design for video game platform library dashboard.
 - [Questions](#questions)
 - [Link](#link)
 
-## Usage
+## Preview
+
+![preview](./images/preview.png)
 
 ## Credits
 
