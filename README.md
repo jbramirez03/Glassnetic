@@ -8,6 +8,8 @@
 
 ## Summary
 
+Simple transparent background design for video game platform library dashboard.
+
 ## Table of Contents
 
 - [Usage](#usage)
@@ -33,6 +35,8 @@ This Project is covered by the [MIT] license
 
 ## Challenges
 
+Creating margins and padding that don't interfere with structure of site, creating a transparent background that looks good and choosing a good palette.
+
 ## Technologies
 
 [<img align="left" width="26px" alt="javascript" src="https://user-images.githubusercontent.com/82244776/132110201-fd810d53-561a-490f-a690-1735d4479281.png">][javascript]
@@ -44,9 +48,9 @@ This Project is covered by the [MIT] license
 [css]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [html]: https://developer.mozilla.org/en-US/docs/Web/HTML
 
-## Features
-
 ## Future Development
+
+Create more info for each game card, include separate section for individual game information to render, make working side nav links.
 
 ## How to Contribute
 
